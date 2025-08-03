@@ -1,0 +1,75 @@
+name: oromo_dictionary
+description: "Hamid Muudee Dictionary"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+5
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #shared_preferences: ^2.2.0
+  #  speech_to_text: ^7.0.0
+  google_fonts: ^6.2.1
+  provider: ^6.0.5
+  encrypt: ^5.0.3  # For AES encryption
+  crypto: ^3.0.3   # For hashing (SHA256, etc.)
+
+  #package_info_plus: ^8.3.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.3"
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/ic_launcher.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icons/ic_launcher.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icons/ic_launcher.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/ic_launcher.png"
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/data/dictionary.bin
+    - assets/icons/ic_launcher.png
+
+
+
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

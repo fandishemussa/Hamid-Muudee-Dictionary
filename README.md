@@ -9,7 +9,7 @@ The App on Google Play Store: https://play.google.com/store/apps/details?id=com.
 
 Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan Oromoo vocabulary lookup, review, and practice simple, beautiful, and fast. The app bundles an encrypted local dictionary asset, supports bilingual search, includes learning tools such as flashcards and timed quizzes, and tracks user progress locally.
 
----
+
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan
 - [Credits](#credits)
 - [License](#license)
 
----
+
 
 ## Highlights
 
@@ -40,21 +40,21 @@ Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan
 - **Personalization** through light/dark appearance, font scaling, daily goal settings, and speech-rate control.
 - **Cross-platform Flutter foundation** with Android, iOS, web, Windows, macOS, and Linux project targets included.
 
----
+
 
 ## Screenshots
 
 The repository includes local app preview images in the project root. If you update the UI, replace these images to keep the README current.
 
 | Dictionary | Word Detail / Learning | Quiz / Practice |
-|---|---|---|
+||||
 | ![Dictionary screen](flutter_08.png) | ![Word detail screen](flutter_10.png) | ![Learning screen](flutter_12.png) |
 
 | Saved / Stats | Settings | Dark / Responsive UI |
-|---|---|---|
+||||
 | ![Stats or saved screen](flutter_15.png) | ![Settings screen](flutter_18.png) | ![Responsive UI](flutter_20.png) |
 
----
+
 
 ## Feature Overview
 
@@ -111,12 +111,12 @@ The repository includes local app preview images in the project root. If you upd
 - Clear search history and recently viewed words.
 - Reset learning progress.
 
----
+
 
 ## Technology Stack
 
 | Area | Technology |
-|---|---|
+|||
 | Framework | Flutter |
 | Language | Dart `^3.7.2` |
 | UI | Material widgets, custom responsive layouts, Google Fonts |
@@ -130,7 +130,7 @@ The repository includes local app preview images in the project root. If you upd
 | Testing | `flutter_test` |
 | Linting | `flutter_lints` |
 
----
+
 
 ## Project Structure
 
@@ -177,7 +177,7 @@ oromo_dictionary/
 └── README.md
 ```
 
----
+
 
 ## Dictionary Encryption
 
@@ -220,7 +220,7 @@ The decrypted dictionary JSON is expected to contain entries shaped like:
 }
 ```
 
----
+
 
 ## Getting Started
 
@@ -265,7 +265,7 @@ Run on web:
 flutter run -d chrome --dart-define=DICT_PASSWORD=your_dictionary_password
 ```
 
----
+
 
 ## Development Commands
 
@@ -295,7 +295,7 @@ The launcher icon source is configured in `flutter_launcher_icons.yaml` and `pub
 dart run flutter_launcher_icons
 ```
 
----
+
 
 ## Building for Release
 
@@ -343,7 +343,7 @@ flutter build macos --release --dart-define=DICT_PASSWORD=your_dictionary_passwo
 flutter build linux --release --dart-define=DICT_PASSWORD=your_dictionary_password
 ```
 
----
+
 
 ## Configuration
 
@@ -370,7 +370,7 @@ Before publishing a new release:
 4. Build with `--dart-define=DICT_PASSWORD=...`.
 5. Verify the app launches and the dictionary list is populated.
 
----
+
 
 ## Quality, Privacy, and Security Notes
 
@@ -404,7 +404,7 @@ The app persists:
 - Sharing behavior depends on the host OS share sheet.
 - Desktop and web builds may require platform-specific validation before release.
 
----
+
 
 ## Troubleshooting
 
@@ -438,7 +438,7 @@ flutter pub get
 
 Then rebuild with the required Dart define.
 
----
+
 
 ## Roadmap Ideas
 
@@ -448,7 +448,7 @@ Then rebuild with the required Dart define.
 - Add richer analytics charts for weekly/monthly learning progress.
 - Add pronunciation support for Afaan Oromoo where platform voices are available.
 
----
+
 
 ## Credits
 
@@ -457,7 +457,7 @@ Then rebuild with the required Dart define.
 - **Development team:** Horn Development Team
 - **Language focus:** Afaan Oromoo and English
 
----
+
 
 ## License
 

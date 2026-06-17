@@ -1,5 +1,5 @@
 # Hamid Muudee's Dictionary
-
+The App on Google Play Store: https://play.google.com/store/apps/details?id=com.horndevelopmentteam.oromo_dictionary
 > A polished, offline-first **English ↔ Afaan Oromoo** dictionary and learning app built with Flutter.
 
 [![Flutter](https://img.shields.io/badge/Flutter-Multi--platform-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)

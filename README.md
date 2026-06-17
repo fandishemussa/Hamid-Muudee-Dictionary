@@ -1,5 +1,5 @@
 # Hamid Muudee's Dictionary
-The App on Google Play Store: https://play.google.com/store/apps/details?id=com.horndevelopmentteam.oromo_dictionary
+
 > A polished, offline-first **English ↔ Afaan Oromoo** dictionary and learning app built with Flutter.
 
 [![Flutter](https://img.shields.io/badge/Flutter-Multi--platform-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
@@ -28,8 +28,7 @@ Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan
 - [Credits](#credits)
 - [License](#license)
 
-
-
+-
 ## Highlights
 
 - **Offline dictionary experience** using a bundled encrypted binary dictionary asset.
@@ -41,19 +40,17 @@ Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan
 - **Cross-platform Flutter foundation** with Android, iOS, web, Windows, macOS, and Linux project targets included.
 
 
-
 ## Screenshots
 
 The repository includes local app preview images in the project root. If you update the UI, replace these images to keep the README current.
 
 | Dictionary | Word Detail / Learning | Quiz / Practice |
-||||
+|---|---|---|
 | ![Dictionary screen](flutter_08.png) | ![Word detail screen](flutter_10.png) | ![Learning screen](flutter_12.png) |
 
 | Saved / Stats | Settings | Dark / Responsive UI |
-||||
+|---|---|---|
 | ![Stats or saved screen](flutter_15.png) | ![Settings screen](flutter_18.png) | ![Responsive UI](flutter_20.png) |
-
 
 
 ## Feature Overview
@@ -116,7 +113,7 @@ The repository includes local app preview images in the project root. If you upd
 ## Technology Stack
 
 | Area | Technology |
-|||
+|---|---|
 | Framework | Flutter |
 | Language | Dart `^3.7.2` |
 | UI | Material widgets, custom responsive layouts, Google Fonts |
@@ -176,7 +173,6 @@ oromo_dictionary/
 ├── pubspec.yaml                     # Dependencies, assets, and app version
 └── README.md
 ```
-
 
 
 ## Dictionary Encryption
@@ -266,7 +262,6 @@ flutter run -d chrome --dart-define=DICT_PASSWORD=your_dictionary_password
 ```
 
 
-
 ## Development Commands
 
 ### Analyze Code
@@ -294,7 +289,6 @@ The launcher icon source is configured in `flutter_launcher_icons.yaml` and `pub
 ```bash
 dart run flutter_launcher_icons
 ```
-
 
 
 ## Building for Release
@@ -344,7 +338,6 @@ flutter build linux --release --dart-define=DICT_PASSWORD=your_dictionary_passwo
 ```
 
 
-
 ## Configuration
 
 Important project configuration lives in `pubspec.yaml`:
@@ -369,7 +362,6 @@ Before publishing a new release:
 3. Run `flutter analyze` and `flutter test`.
 4. Build with `--dart-define=DICT_PASSWORD=...`.
 5. Verify the app launches and the dictionary list is populated.
-
 
 
 ## Quality, Privacy, and Security Notes
@@ -405,7 +397,6 @@ The app persists:
 - Desktop and web builds may require platform-specific validation before release.
 
 
-
 ## Troubleshooting
 
 ### The app opens but the dictionary is empty
@@ -439,7 +430,6 @@ flutter pub get
 Then rebuild with the required Dart define.
 
 
-
 ## Roadmap Ideas
 
 - Add automated tests for dictionary decryption and filtering behavior.
@@ -449,14 +439,12 @@ Then rebuild with the required Dart define.
 - Add pronunciation support for Afaan Oromoo where platform voices are available.
 
 
-
 ## Credits
 
 - **Dictionary author:** Prof. Mahdi Hamid Muudeetiin
 - **Application:** Hamid Muudee's Dictionary
 - **Development team:** Horn Development Team
 - **Language focus:** Afaan Oromoo and English
-
 
 
 ## License

@@ -27,8 +27,6 @@ Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan
 - [Troubleshooting](#troubleshooting)
 - [Credits](#credits)
 - [License](#license)
-
--
 ## Highlights
 
 - **Offline dictionary experience** using a bundled encrypted binary dictionary asset.

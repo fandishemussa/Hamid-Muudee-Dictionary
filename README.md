@@ -8,11 +8,15 @@
 [![Offline First](https://img.shields.io/badge/Offline--First-Encrypted%20Dictionary-00BFA5?style=for-the-badge)](#dictionary-encryption)
 
 Hamid Muudee's Dictionary is a modern Flutter application designed to make Afaan Oromoo vocabulary lookup, review, and practice simple, beautiful, and fast. The app bundles an encrypted local dictionary asset, supports bilingual search, includes learning tools such as flashcards and timed quizzes, and tracks user progress locally.
+## Download
 
+<a href="https://play.google.com/store/apps/details?id=com.horndevelopmentteam.oromo_dictionary">
+  <img src="https://img.shields.io/badge/Get%20it%20on-Google%20Play-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Get it on Google Play">
+</a>
 
 
 ## Table of Contents
-
+- [Download](#download)
 - [Highlights](#highlights)
 - [Screenshots](#screenshots)
 - [Feature Overview](#feature-overview)

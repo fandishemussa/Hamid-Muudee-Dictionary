@@ -443,7 +443,7 @@ Then rebuild with the required Dart define.
 
 ## Credits
 
-- **Dictionary author:** Prof. Mahdi Hamid Muudeetiin
+- **Dictionary content:** Based on the work of Prof. Mahdi Hamid Muudee
 - **Application:** Hamid Muudee's Dictionary
 - **Development team:** Horn Development Team
 - **Language focus:** Afaan Oromoo and English

@@ -448,5 +448,11 @@ Then rebuild with the required Dart define.
 
 
 ## License
+This project is licensed under the MIT License for the source code.
 
-No license file is currently included in this repository. Add a `LICENSE` file before public distribution or external contribution to clarify usage, redistribution, and modification rights.
+The dictionary content, word database, definitions, translations, audio, and related linguistic materials are not automatically covered by the MIT License. These materials may be copyrighted by their original author(s) or owner(s) and are included only with permission or for authorized use.
+
+See the [LICENSE](LICENSE) file for details.
+### Content Rights
+
+The dictionary dataset and linguistic content used in this application are protected separately from the source code. Reuse, redistribution, or commercial use of the dictionary data is not permitted without written permission from the rightful owner(s).
